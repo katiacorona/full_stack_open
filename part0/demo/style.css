@@ -1,0 +1,70 @@
+body {
+    font: 1.2em monospace;
+    color: #f286c4;
+    background-color: #282a36;
+}
+
+h1 {
+    font-family: monospace;
+    color: #6ade52;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 400px;
+    /* form outline */
+    padding: 1em;
+    border: 1.5px solid #f286c4;
+    border-radius: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li + li {
+    margin-top: 1em;
+}
+
+label {
+    /* unifrom size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input,
+textarea {
+    /* make sure all text fields have the same font settings (monospace is default) */
+    font: 1.2em monospace;
+    /* uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+    /* match form field borders */
+    border: 1px solid #999;
+}
+
+textarea {
+    /* align multi-line text fields with their labels */
+    vertical-align: top;
+
+    /* provide space to add some text */
+    height: 5em;
+}
+
+.button {
+    /* align buttons with the text fields */
+    padding-left: 90px;
+}
+
+button {
+    /* extra marging is the ~ the same space as the space between the labels and their text fields */
+    margin-left: 0.5em;
+    background-color: #9c9cee;
+    border-radius: 0.5rem;
+    font: 1em monospace;
+}
